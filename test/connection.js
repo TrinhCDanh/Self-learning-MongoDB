@@ -17,10 +17,10 @@ before((done) => {
 })
 
 // chạy trước before
-beforeEach((done) => {
-    db.collections.humen.drop(() => {
-        console.log('Success Drop Collection');
-        done();
-    });
-})
+// beforeEach((done) => {
+//     db.collections.humen.drop(() => {
+//         console.log('Success Drop Collection');
+//         done();
+//     });
+// })
 

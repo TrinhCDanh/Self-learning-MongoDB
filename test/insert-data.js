@@ -4,7 +4,7 @@ var personModel = require('../02-schema-and-model/person');
 describe('run demo insert data', () => {
     it('Check Result', (done) => {
         var character = new personModel({
-            name: 'Samsung'
+            name: 'Toshiba'
         });
 
         character.save().then(() => {
