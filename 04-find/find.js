@@ -10,13 +10,14 @@ personModel.findOne({name: 'Toshiba'}, (err, result) => {
 });
 
 var character = new personModel({
-    name: 'MSI'
+    name: 'Dell'
 });
 
-character.save().then(() => console.log('Success'));
+character.save().then(() => {
+    var id = character._id;
+    personModel.findOne({_id: id}, (err, result) => {
+        if (err) return handleError(err);
+        console.log(`Result: ${result.name}`);
+    }); 
+});
 
-console.log(character._id);
-// personModel.findOne({_id: character._id.toString()}, (err, result) => {
-//     if (err) return handleError(err);
-//     console.log(`Result: ${result.name}`);
-// });
