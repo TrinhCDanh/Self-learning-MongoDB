@@ -9,6 +9,6 @@ var personSchema = new Schema({
     gender: Boolean
 });
 
-var personModel = mongoose.model('person', personSchema); 
+var personModel = mongoose.model('human', personSchema); 
 
 module.exports = personModel;
