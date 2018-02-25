@@ -1,0 +1,23 @@
+{
+  "name": "Self-learning-MongoDB",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrinhCDanh/Self-learning-MongoDB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrinhCDanh/Self-learning-MongoDB/issues"
+  },
+  "homepage": "https://github.com/TrinhCDanh/Self-learning-MongoDB#readme",
+  "dependencies": {
+    "mongoose": "^5.0.6"
+  }
+}
