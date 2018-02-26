@@ -1,15 +1,15 @@
-const assert = require('assert');
-var personModel = require('../02-schema-and-model/person');
+// const assert = require('assert');
+// var personModel = require('../02-schema-and-model/person');
 
-describe('run demo insert data', () => {
-    it('Check Result', (done) => {
-        var character = new personModel({
-            name: 'Toshiba'
-        });
+// describe('run demo insert data', () => {
+//     it('Check Result', (done) => {
+//         var character = new personModel({
+//             name: 'Toshiba'
+//         });
 
-        character.save().then(() => {
-            assert(character.isNew === false);
-            done();
-        });
-    });
-});
+//         character.save().then(() => {
+//             assert(character.isNew === false);
+//             done();
+//         });
+//     });
+// });
